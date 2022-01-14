@@ -61,7 +61,7 @@ namespace NorthwindNtierDAL.Repository
             return db.Set<T>();
         }
 
-        public void Update()
+        public void Save()
         {
             db.SaveChanges();
         }

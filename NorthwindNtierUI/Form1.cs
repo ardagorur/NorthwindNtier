@@ -61,9 +61,7 @@ namespace NorthwindNtierUI
         {
             try
             {
-                int choosenId = 1;
-                choosenId = Convert.ToInt32(cmbKategoriler.SelectedValue);
-                FillTable(choosenId);
+                FillTable(Convert.ToInt32(cmbKategoriler.SelectedValue));
             }
             catch 
             {
@@ -78,7 +76,8 @@ namespace NorthwindNtierUI
             p.UnitsInStock = (short?)nudEklemeStok.Value;
             p.CategoryID = (int)cmbUrunEklemeKategorler.SelectedValue;
             proRepo.Add(p);
-            proRepo.Update();
+            proRepo.Save();
+            FillTable(Convert.ToInt32(cmbKategoriler.SelectedValue));
         }
 
         private void btnGuncelle_Click(object sender, EventArgs e)
@@ -120,41 +119,21 @@ namespace NorthwindNtierUI
 
         private void DelectAction(object sender, MouseEventArgs e, string id)
         {
-            foreach (ListViewItem eachItem in listView1.SelectedItems)
-            {
-                // you can use this idea to get the ListView header's name is 'Id' before delete
-                Console.WriteLine(GetTextByHeaderAndIndex(listView1, "Id", eachItem.Index));
-                listView1.Items.Remove(eachItem);
-            }
+            Product deleteProduct = proRepo.Find(Convert.ToInt32(listView1.SelectedItems[0].Tag));
+            proRepo.Delete(deleteProduct);
+            proRepo.Save();
+            FillTable(Convert.ToInt32(cmbKategoriler.SelectedValue));
         }
 
         private void ActionClick(object sender, MouseEventArgs e, string id)
         {
-            choosen1 = Convert.ToInt32(listView1.SelectedItems[0].Tag);
-            updateProduct = proRepo.Find(choosen1);
+            updateProduct = proRepo.Find(Convert.ToInt32(listView1.SelectedItems[0].Tag));
             txtGuncellemeUrunAd.Text = updateProduct.ProductName;
             txtGuncellemeFiyat.Text = updateProduct.UnitPrice.ToString();
             nudGuncellemeStok.Value = (decimal)updateProduct.UnitsInStock;
             cmbGuncellemeKategoriler.SelectedValue = updateProduct.CategoryID;
+            proRepo.Save();
         }
-        public static string GetTextByHeaderAndIndex(ListView listViewControl, string headerName, int index)
-        {
 
-
-            int headerIndex = -1;
-            foreach (ColumnHeader header in listViewControl.Columns)
-            {
-                if (header.Name == headerName)
-                {
-                    headerIndex = header.Index;
-                    break;
-                }
-            }
-            if (headerIndex > -1)
-            {
-                return listViewControl.Items[index].SubItems[headerIndex].Text;
-            }
-            return null;
-        }
     }
 }
