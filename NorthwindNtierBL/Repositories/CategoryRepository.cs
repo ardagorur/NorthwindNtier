@@ -1,18 +1,18 @@
-﻿using System;
+﻿using NorthwindNtierBL.DTOs;
+using NorthwindNtierDAL.Context;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using NorthwindNtierBL.DTOs;
-using NorthwindNtierDAL.Context;
 
-namespace NorthwindNtierDAL.Repository
+namespace NorthwindNtierBL.Repositories
 {
-    public class CategoryRepository: BaseRepository<Category>
+    public class CategoryRepository:BaseRepository<Category>
     {
         public List<CategoryDTO> GetCategories()
         {
-            return Set().Select(x=> new CategoryDTO
+            return Set().Select(x => new CategoryDTO
             {
                 CategoryID = x.CategoryID,
                 CategoryName = x.CategoryName

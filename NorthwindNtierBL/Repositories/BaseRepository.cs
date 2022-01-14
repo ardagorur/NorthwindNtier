@@ -1,12 +1,12 @@
-﻿using NorthwindNtierDAL.Context;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using NorthwindNtierDAL.Context;
 
-namespace NorthwindNtierDAL.Repository
+namespace NorthwindNtierBL.Repositories
 {
     public abstract class BaseRepository<T> where T:class
     {

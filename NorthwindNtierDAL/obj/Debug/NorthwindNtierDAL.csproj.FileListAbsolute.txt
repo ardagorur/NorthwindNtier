@@ -13,3 +13,15 @@ C:\Users\Administrator\Desktop\OOP_tasks\NorthwindNtier\NorthwindNtierDAL\obj\De
 C:\Users\Administrator\Desktop\OOP_tasks\NorthwindNtier\NorthwindNtierDAL\obj\Debug\NorthwindNtierDAL.dll
 C:\Users\Administrator\Desktop\OOP_tasks\NorthwindNtier\NorthwindNtierDAL\obj\Debug\NorthwindNtierDAL.pdb
 C:\Users\Administrator\Desktop\OOP_tasks\NorthwindNtier\NorthwindNtierDAL\bin\Debug\NorthwindNtierBL.dll.config
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierDAL\bin\Debug\NorthwindNtierDAL.dll.config
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierDAL\bin\Debug\NorthwindNtierDAL.dll
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierDAL\bin\Debug\NorthwindNtierDAL.pdb
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierDAL\bin\Debug\EntityFramework.dll
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierDAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierDAL\bin\Debug\EntityFramework.xml
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierDAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierDAL\obj\Debug\NorthwindNtierDAL.csproj.AssemblyReference.cache
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierDAL\obj\Debug\NorthwindNtierDAL.csproj.CoreCompileInputs.cache
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierDAL\obj\Debug\NorthwindNtierDAL.csproj.CopyComplete
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierDAL\obj\Debug\NorthwindNtierDAL.dll
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierDAL\obj\Debug\NorthwindNtierDAL.pdb

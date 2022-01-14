@@ -1,16 +1,16 @@
-﻿using System;
+﻿using NorthwindNtierBL.DTOs;
+using NorthwindNtierDAL.Context;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using NorthwindNtierBL.DTOs;
-using NorthwindNtierDAL.Context;
 
-namespace NorthwindNtierDAL.Repository
+namespace NorthwindNtierBL.Repositories
 {
-    public class ProductRepository:BaseRepository<Product>
+    public class ProductRepository: BaseRepository<Product>
     {
-        public Product GetProductsByID (int id)
+        public Product GetProductsByID(int id)
         {
             return Find(id);
         }
@@ -24,7 +24,7 @@ namespace NorthwindNtierDAL.Repository
                 CategoryID = x.Category.CategoryID,
                 CategoryName = x.Category.CategoryName,
                 UnitPrice = x.UnitPrice,
-            }).Where(x=> x.CategoryID == id).ToList();
+            }).Where(x => x.CategoryID == id).ToList();
         }
     }
 }

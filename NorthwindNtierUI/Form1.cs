@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using NorthwindNtierBL.DTOs;
-using NorthwindNtierDAL.Repository;
+using NorthwindNtierBL.Repositories;
 using NorthwindNtierDAL.Context;
 
 namespace NorthwindNtierUI
@@ -17,12 +17,11 @@ namespace NorthwindNtierUI
     {
         ProductRepository proRepo = new ProductRepository();
         CategoryRepository catRepo = new CategoryRepository();
-        int choosen1 = 0;
         Product updateProduct = new Product();
         public Form1()
         {
             InitializeComponent();
-            FillTable(1);
+            FillTable(0);
             FillCb();
         }
 
@@ -83,15 +82,16 @@ namespace NorthwindNtierUI
         private void btnGuncelle_Click(object sender, EventArgs e)
         {
             updateProduct.ProductName = txtGuncellemeUrunAd.Text;
-            updateProduct.UnitPrice = Convert.ToInt32(txtGuncellemeFiyat.Text);
+            updateProduct.UnitPrice = Convert.ToDecimal(txtGuncellemeFiyat.Text);
             updateProduct.UnitsInStock = (short)nudGuncellemeStok.Value;
             updateProduct.CategoryID = Convert.ToInt32(cmbGuncellemeKategoriler.SelectedValue);
+            proRepo.Save();
+
         }
 
         private void listView1_MouseClick(object sender, MouseEventArgs e)
         {
             string id = "xxx";
-            //secilenId = Convert.ToInt32(listView1.Items[0].Text);
             if (e.Button == MouseButtons.Right)
             {
                 if (listView1.FocusedItem != null && listView1.FocusedItem.Bounds.Contains(e.Location) == true)
@@ -102,13 +102,13 @@ namespace NorthwindNtierUI
                     m.MenuItems.Add(cashMenuItem);
                     cashMenuItem.Click += delegate (object sender2, EventArgs e2)
                     {
-                        ActionClick(sender, e, id);
+                        ActionClick();
                     };
 
                     MenuItem delMenuItem = new MenuItem("Sil");
                     delMenuItem.Click += delegate (object sender2, EventArgs e2) {
-                        DelectAction(sender, e, id);
-                    };// 
+                        DelectAction();
+                    };
                     m.MenuItems.Add(delMenuItem);
 
                     m.Show(listView1, new Point(e.X, e.Y));
@@ -117,7 +117,7 @@ namespace NorthwindNtierUI
             }
         }
 
-        private void DelectAction(object sender, MouseEventArgs e, string id)
+        private void DelectAction()
         {
             Product deleteProduct = proRepo.Find(Convert.ToInt32(listView1.SelectedItems[0].Tag));
             proRepo.Delete(deleteProduct);
@@ -125,7 +125,7 @@ namespace NorthwindNtierUI
             FillTable(Convert.ToInt32(cmbKategoriler.SelectedValue));
         }
 
-        private void ActionClick(object sender, MouseEventArgs e, string id)
+        private void ActionClick()
         {
             updateProduct = proRepo.Find(Convert.ToInt32(listView1.SelectedItems[0].Tag));
             txtGuncellemeUrunAd.Text = updateProduct.ProductName;

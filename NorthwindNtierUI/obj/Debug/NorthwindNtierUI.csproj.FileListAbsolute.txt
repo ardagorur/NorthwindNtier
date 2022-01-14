@@ -20,3 +20,24 @@ C:\Users\Administrator\Desktop\OOP_tasks\NorthwindNtier\NorthwindNtierUI\obj\Deb
 C:\Users\Administrator\Desktop\OOP_tasks\NorthwindNtier\NorthwindNtierUI\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Administrator\Desktop\OOP_tasks\NorthwindNtier\NorthwindNtierUI\bin\Debug\NorthwindNtierBL.dll.config
 C:\Users\Administrator\Desktop\OOP_tasks\NorthwindNtier\NorthwindNtierUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierUI\bin\Debug\NorthwindNtierUI.exe.config
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierUI\bin\Debug\NorthwindNtierUI.exe
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierUI\bin\Debug\NorthwindNtierUI.pdb
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierUI\bin\Debug\EntityFramework.dll
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierUI\bin\Debug\NorthwindNtierBL.dll
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierUI\bin\Debug\NorthwindNtierDAL.dll
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierUI\bin\Debug\NorthwindNtierBL.pdb
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierUI\bin\Debug\NorthwindNtierBL.dll.config
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierUI\bin\Debug\NorthwindNtierDAL.pdb
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierUI\bin\Debug\NorthwindNtierDAL.dll.config
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierUI\bin\Debug\EntityFramework.xml
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierUI\obj\Debug\NorthwindNtierUI.csproj.AssemblyReference.cache
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierUI\obj\Debug\NorthwindNtierUI.Form1.resources
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierUI\obj\Debug\NorthwindNtierUI.Properties.Resources.resources
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierUI\obj\Debug\NorthwindNtierUI.csproj.GenerateResource.cache
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierUI\obj\Debug\NorthwindNtierUI.csproj.CoreCompileInputs.cache
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierUI\obj\Debug\NorthwindNtierUI.csproj.CopyComplete
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierUI\obj\Debug\NorthwindNtierUI.exe
+C:\Users\Web ve Mobil Öğle\Desktop\Arda\NorthwindNtier\NorthwindNtierUI\obj\Debug\NorthwindNtierUI.pdb

@@ -52,9 +52,15 @@
     <Compile Include="DTOs\CategoryDTO.cs" />
     <Compile Include="DTOs\ProductDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\BaseRepository.cs" />
+    <Compile Include="Repositories\CategoryRepository.cs" />
+    <Compile Include="Repositories\ProductRepository.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ViewModels\" />
+    <ProjectReference Include="..\NorthwindNtierDAL\NorthwindNtierDAL.csproj">
+      <Project>{5b810589-709b-4e11-9c02-c465eb40ddaa}</Project>
+      <Name>NorthwindNtierDAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
