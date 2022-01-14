@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "76b41f98-6294-44df-9743-22835bd412d2": {
+      "ProjectGuid": "76b41f98-6294-44df-9743-22835bd412d2",
+      "DisplayName": "NorthwindNtier",
+      "ColorIndex": 0
+    },
+    "5b810589-709b-4e11-9c02-c465eb40ddaa": {
+      "ProjectGuid": "5b810589-709b-4e11-9c02-c465eb40ddaa",
+      "DisplayName": "NorthwindNtierDAL",
+      "ColorIndex": 1
+    },
+    "f3d10858-99f4-43a2-9b46-781ea717e277": {
+      "ProjectGuid": "f3d10858-99f4-43a2-9b46-781ea717e277",
+      "DisplayName": "NorthwindNtierBL",
+      "ColorIndex": 2
+    },
+    "854c6b3f-b25c-41c1-8661-19321dc4ee1b": {
+      "ProjectGuid": "854c6b3f-b25c-41c1-8661-19321dc4ee1b",
+      "DisplayName": "NorthwindNtierUI",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

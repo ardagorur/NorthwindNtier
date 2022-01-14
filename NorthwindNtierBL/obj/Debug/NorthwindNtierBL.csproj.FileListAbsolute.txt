@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\OOP_tasks\NorthwindNtier\NorthwindNtierBL\bin\Debug\NorthwindNtierBL.dll
+C:\Users\Administrator\Desktop\OOP_tasks\NorthwindNtier\NorthwindNtierBL\bin\Debug\NorthwindNtierBL.pdb
+C:\Users\Administrator\Desktop\OOP_tasks\NorthwindNtier\NorthwindNtierBL\obj\Debug\NorthwindNtierBL.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\OOP_tasks\NorthwindNtier\NorthwindNtierBL\obj\Debug\NorthwindNtierBL.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\OOP_tasks\NorthwindNtier\NorthwindNtierBL\obj\Debug\NorthwindNtierBL.dll
+C:\Users\Administrator\Desktop\OOP_tasks\NorthwindNtier\NorthwindNtierBL\obj\Debug\NorthwindNtierBL.pdb
+C:\Users\Administrator\Desktop\OOP_tasks\NorthwindNtier\NorthwindNtierBL\bin\Debug\NorthwindNtierBL.dll.config
+C:\Users\Administrator\Desktop\OOP_tasks\NorthwindNtier\NorthwindNtierBL\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\OOP_tasks\NorthwindNtier\NorthwindNtierBL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\OOP_tasks\NorthwindNtier\NorthwindNtierBL\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\OOP_tasks\NorthwindNtier\NorthwindNtierBL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\OOP_tasks\NorthwindNtier\NorthwindNtierBL\obj\Debug\NorthwindNtierBL.csproj.CopyComplete
